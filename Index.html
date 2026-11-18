@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta vame-"viewport"
+        content="width=device-width,initial-scale=1" />
+        <title> Campus Notices</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        
+    <img src="logo.png"></img>     
+        <header>Don Mariano Marcos Memorial State University</header>
+        <nav>
+            <a href="notices.html"> Home </a>
+            <a href="notices.html"> About </a>
+            <a href="notices.html"> Contact us </a>
+            <a href="notices.html"> Register </a>
+        </nav>
+        <main>
+            <h1>Campus Notices</h1>
+            <img src="Pet.jpg"></img>
+            <section>
+                <ul>
+                    <li>Sinigang</li>
+                    <li>Tinola</li>
+                    <li>Adobo</li>
+                </ul>
+            </section>
+            <form action="/api/notices method="post">
+            <aside>
+                <label for="title">Title</label>
+                <input id="title" name="title" type="text" required />
+
+            <label for="msg">Message</label>
+            <textarea id="msg" name="message"></textarea>
+
+            <button type="submit">Post Notice</button>
+            </aside>
+            </form>
+        </main>
+    </body>
+</html>
